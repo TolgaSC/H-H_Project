@@ -164,7 +164,7 @@ header nav a {
     font-family: 'WorkSans';
     font-size: 15px;
     font-weight: 200;
-    word-spacing: 6px;
+    text-align: justify;
     padding: 15px 0;
     color: #fff;
     width: 400px;
