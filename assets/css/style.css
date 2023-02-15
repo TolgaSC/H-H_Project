@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Lora';
+    src: url('../font/Lora-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../font/WorkSans-VariableFont_wght.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.first_section, .ourstory {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_section article, .ourstory article  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Lora';
+}
+
+.first_section article h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.first_section article p {
+    padding: 10px 0 0 0;
+    font-size: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 80px;
+    font-family: 'WorkSans';
+}
+
+.ourstory {
+    height: 90vh;
+    padding: 90px 0 100px 0;
+    background-color: #2e2e2e;
+}
+
+.ourstory article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.ourstory h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Lora';
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.ourstory p {
+    color: #fff;
+    font-family: 'WorkSans';
+    font-weight: 300;
+    word-spacing: 11px;
+    padding: 10px 10px;
+}
+
+.featuring {
+    height: 160vh;
+}
+
+.featuring article {
+    display: block;
+    text-align: center;
+    padding-top: 220px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.featuring article h2 {
+    font-family: 'Lora';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.featuring article p {
+    font-family: 'WorkSans';
+    word-spacing: 10px;
+    text-align: left;
+    font-weight: 300;
+}
+
+
+.featuring .gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 10px 30px;
+    margin-left: 10px;
+}
+
+.featuring .gallery img {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.featuring .gallery figcaption {
+    width: 350px;
+    text-align: center;
+}
+
+/* .featuring .gallery iframe {
+    margin-top: 60px;
+} */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    background-color: #2e2e2e;
+    height: 60vh;
+}
+
+.contact article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 250px 0 160px;
+}
+
+.contact article h2 {
+    font-family: 'Lora';
+    font-size: 35px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.contact article p {
+    font-family: 'WorkSans';
+    font-size: 15px;
+    font-weight: 200;
+    word-spacing: 6px;
+    padding: 15px 0;
+    color: #fff;
+    width: 400px;
+}
+
+.contact section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin-top: 120px;
+}
+
+.contact section form label {
+    color: #fff;
+    font-family: 'Lora';
+    padding-bottom: 5px;
+}
+
+.contact section form input {
+    padding: 5px;
+}
+
+.contact section form button {
+    width: 20%;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.contact section form textarea {
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d2c2f;
+    height: 7vh;
+    text-transform: uppercase;
+}
+
+footer section:nth-of-type(1) p {
+    margin-left:20px;
+    color: #fff;
+}
+
+footer section:nth-of-type(2) p {
+    color: #fff;
+    margin-left: 110px;
+}
+
+footer section:nth-of-type(3) a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
